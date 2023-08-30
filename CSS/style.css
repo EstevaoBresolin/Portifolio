@@ -1,0 +1,231 @@
+body{
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 80%;
+    background-color: #0F172A;
+    zoom: 1;
+}
+
+.primary{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    color:white;
+    filter: opacity(90%);
+   
+}
+h2{
+    font-size: 30px;
+    color:white;
+    filter: opacity(80%);
+}
+h3{
+    font-size: 30px;
+    color:white;
+    filter: opacity(70%);
+}
+p{
+    
+    font-size: 20px;
+    color:white;
+    filter: opacity(60%);
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+i{
+    filter: opacity(60%);
+    margin: 10px;
+
+}
+
+img{
+    
+    width: 330px;
+    height: 200px;
+}
+    
+li{
+    list-style: none;
+}
+li:hover{
+    font-size: 23px;
+}
+
+
+.options{
+    display: block;
+    flex-direction: row;
+    white-space: pre-line;
+    font-size: 20px;
+    color:white;
+    filter: opacity(60%);
+    margin-bottom: 20px;
+
+}
+
+.left{
+    width: 100%;
+    margin-right: 200px;
+}
+
+.rigth{
+    width: 100%;
+   
+}
+
+
+
+.about{
+   margin-bottom: 10%;
+
+}
+
+#curriculo{
+    border: solid;
+    border-color: #275C74;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 9px;
+    white-space: pre;
+    background-color: #275C74;
+    color: #50C8CB;
+}
+#curriculo:hover{
+    border: solid;   
+    border-radius: 45px;
+    padding:5px;
+    margin: 9px;
+    white-space: pre;
+    background-color: #275C74;
+    color: #50C8CB;
+}
+
+
+.work:hover{
+    padding: 20px;
+    border-radius: 15px;
+    border:#17274B;
+    background-color: #17274B;
+    filter: opacity(70%);
+    
+}
+
+.work{
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.study{
+    padding: 20px;
+}
+.study:hover{
+    padding: 20px;
+    border-radius: 15px;
+    border:#17274B;
+    background-color: #17274B;
+    filter: opacity(70%);
+}
+
+.tools{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap
+}
+
+#tools2{
+    border: solid;
+    border-color: #275C74;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 9px;
+    white-space: pre;
+    background-color: #275C74;
+    color: #50C8CB;
+    
+}
+#tools2:hover{
+    border: solid;   
+    border-radius: 45px;
+    padding:5px;
+    margin: 9px;
+    white-space: pre;
+    background-color: #275C74;
+    color: #50C8CB;
+}
+
+#projects{
+    flex-direction: row;
+    text-align: center;
+}
+
+.forms{
+    display: flex;
+    justify-content: space-around;
+}
+.forms2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto{
+    margin: 10px;
+}
+
+.html{
+    display: flex;
+    justify-content: space-around;
+}
+.aspnet{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 900px){
+    .primary {
+        display: block;
+    }
+    h1{
+        font-size: 35px;
+    }
+    #desc{
+        font-size: 18px;
+    }
+    .left{      
+        text-align: center;               
+    }
+    .forms{
+        display: block;
+        text-align: center;
+    }
+    .forms2{
+        display: block;
+        text-align: center;
+    }
+    .projeto{
+        margin: 1px;
+    }
+    .html{
+        display: block;
+        text-align: center;
+    }
+    .aspnet{
+        display: block;
+        text-align: center;
+    }
+    
+    
+}
